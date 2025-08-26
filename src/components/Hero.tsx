@@ -9,14 +9,12 @@ export default function Hero() {
       <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto">
         <h1 className="text-6xl md:text-8xl font-game font-bold mb-6">
           <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-purple-600 bg-clip-text text-transparent">
-            RipePixel
+            RipePixel studio
           </span>
         </h1>
 
-        <p className="text-xl md:text-2xl text-gray-300 mb-8 leading-relaxed">
-          창의성과 스토리텔링의 경계를 넓히는
-          <br />
-          혁신적이고 몰입감 넘치는 게임을 만듭니다
+        <p className="text-xl md:text-1xl text-gray-400 mb-8 leading-relaxed">
+          창의성과 스토리텔링의 경계를 넓히다
         </p>
 
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">

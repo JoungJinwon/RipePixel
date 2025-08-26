@@ -13,7 +13,7 @@ export default function Team() {
     <section id="team" className="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
       <div className="text-center mb-16">
         <h2 className="text-4xl md:text-5xl font-game font-bold mb-6 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
-          Team
+          TEAM
         </h2>
       </div>
 

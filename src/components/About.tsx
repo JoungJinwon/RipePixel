@@ -6,7 +6,7 @@ export default function About() {
     >
       <div className="text-center mb-16">
         <h2 className="text-4xl md:text-5xl font-game font-bold mb-6 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
-          About US
+          ABOUT US
         </h2>
         <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
           RipePixel studio는 혁신적인 게임 경험을 만들어내는 데 열정을 가진

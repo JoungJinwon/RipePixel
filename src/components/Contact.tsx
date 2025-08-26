@@ -32,7 +32,7 @@ export default function Contact() {
     >
       <div className="text-center mb-16">
         <h2 className="text-4xl md:text-5xl font-game font-bold mb-6 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
-          Contact
+          CONTACT
         </h2>
         <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
           게임 개발 협력, 투자, 채용 또는 기타 문의사항이 있으시면 언제든 연락해

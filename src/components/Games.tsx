@@ -8,13 +8,6 @@ export default function Games() {
       color: "from-purple-500 to-blue-500",
     },
     {
-      title: "Neon Echoes",
-      description: "사이버펑크 세계관의 리듬 액션 게임",
-      status: "기획 중",
-      image: "🎵",
-      color: "from-pink-500 to-purple-500",
-    },
-    {
       title: "Forest Keeper",
       description: "자연을 지키는 환경 보호 테마의 시뮬레이션 게임",
       status: "출시 예정",
@@ -30,7 +23,7 @@ export default function Games() {
     >
       <div className="text-center mb-16">
         <h2 className="text-4xl md:text-5xl font-game font-bold mb-6 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
-          Games
+          GAMES
         </h2>
         <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
           각각의 게임은 독특한 세계관과 스토리를 가지고 있으며, 플레이어에게
@@ -38,7 +31,7 @@ export default function Games() {
         </p>
       </div>
 
-      <div className="grid md:grid-cols-3 gap-8">
+      <div className="grid md:grid-cols-2 justify-items-center">
         {games.map((game, index) => (
           <div
             key={index}
