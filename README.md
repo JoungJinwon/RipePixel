@@ -1,5 +1,7 @@
 # RipePixel studio
 
+https://ripepixel.netlify.app
+
 RipePixel studio는 창의성과 스토리텔링의 경계를 넓히는 혁신적이고 몰입감 넘치는 인디 게임을 만드는 게임 개발 스튜디오입니다.
 
 ## 🚀 기술 스택
