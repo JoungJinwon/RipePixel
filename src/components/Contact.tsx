@@ -31,10 +31,10 @@ export default function Contact() {
       className="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto"
     >
       <div className="text-center mb-16">
-        <h2 className="text-4xl md:text-5xl font-game font-bold mb-6 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+        <h2 className="text-4xl md:text-5xl font-wanted font-bold mb-6 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
           CONTACT
         </h2>
-        <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
+        <p className="text-xl text-gray-300 font-wanted max-w-3xl mx-auto leading-relaxed">
           게임 개발 협력, 투자, 채용 또는 기타 문의사항이 있으시면 언제든 연락해
           주세요.
         </p>
@@ -43,7 +43,7 @@ export default function Contact() {
       <div className="grid lg:grid-cols-2 gap-12">
         <div>
           <div className="bg-white/5 backdrop-blur-sm rounded-xl p-8 border border-purple-500/20">
-            <h3 className="text-2xl font-bold text-white mb-6">
+            <h3 className="text-2xl font-wanted font-bold text-white mb-6">
               메시지 보내기
             </h3>
 
@@ -51,7 +51,7 @@ export default function Contact() {
               <div>
                 <label
                   htmlFor="name"
-                  className="block text-sm font-medium text-gray-300 mb-2"
+                  className="block text-sm font-wanted font-medium text-gray-300 mb-2"
                 >
                   이름
                 </label>
@@ -62,7 +62,7 @@ export default function Contact() {
                   value={formData.name}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-3 bg-white/10 border border-purple-500/30 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20"
+                  className="w-full px-4 py-3 bg-white/10 border border-purple-500/30 rounded-lg text-white font-wanted placeholder-gray-400 focus:outline-none focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20"
                   placeholder="성함을 입력해주세요"
                 />
               </div>
@@ -70,7 +70,7 @@ export default function Contact() {
               <div>
                 <label
                   htmlFor="email"
-                  className="block text-sm font-medium text-gray-300 mb-2"
+                  className="block text-sm font-wanted font-medium text-gray-300 mb-2"
                 >
                   이메일
                 </label>
@@ -81,7 +81,7 @@ export default function Contact() {
                   value={formData.email}
                   onChange={handleChange}
                   required
-                  className="w-full px-4 py-3 bg-white/10 border border-purple-500/30 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20"
+                  className="w-full px-4 py-3 bg-white/10 border border-purple-500/30 rounded-lg text-white font-wanted placeholder-gray-400 focus:outline-none focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20"
                   placeholder="이메일을 입력해주세요"
                 />
               </div>
@@ -89,7 +89,7 @@ export default function Contact() {
               <div>
                 <label
                   htmlFor="message"
-                  className="block text-sm font-medium text-gray-300 mb-2"
+                  className="block text-sm font-wanted font-medium text-gray-300 mb-2"
                 >
                   메시지
                 </label>
@@ -100,14 +100,14 @@ export default function Contact() {
                   onChange={handleChange}
                   required
                   rows={5}
-                  className="w-full px-4 py-3 bg-white/10 border border-purple-500/30 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20 resize-none"
+                  className="w-full px-4 py-3 bg-white/10 border border-purple-500/30 rounded-lg text-white font-wanted placeholder-gray-400 focus:outline-none focus:border-purple-500 focus:ring-2 focus:ring-purple-500/20 resize-none"
                   placeholder="문의 내용을 입력해주세요"
                 />
               </div>
 
               <button
                 type="submit"
-                className="w-full bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-semibold py-4 px-8 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-purple-500/25"
+                className="w-full bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-wanted font-semibold py-4 px-8 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-purple-500/25"
               >
                 메시지 전송
               </button>
@@ -117,7 +117,9 @@ export default function Contact() {
 
         <div className="space-y-8">
           <div className="bg-white/5 backdrop-blur-sm rounded-xl p-8 border border-purple-500/20">
-            <h3 className="text-2xl font-bold text-white mb-6">연락처 정보</h3>
+            <h3 className="text-2xl font-wanted font-bold text-white mb-6">
+              연락처 정보
+            </h3>
 
             <div className="space-y-4">
               <div className="flex items-center">
@@ -137,8 +139,10 @@ export default function Contact() {
                   </svg>
                 </div>
                 <div>
-                  <p className="text-white font-medium">E-mail</p>
-                  <p className="text-gray-300">ripepixel1214@gmail.com</p>
+                  <p className="text-white font-wanted font-medium">E-mail</p>
+                  <p className="text-gray-300 font-wanted">
+                    ripepixel1214@gmail.com
+                  </p>
                 </div>
               </div>
 
@@ -165,8 +169,8 @@ export default function Contact() {
                   </svg>
                 </div>
                 <div>
-                  <p className="text-white font-medium">Address</p>
-                  <p className="text-gray-300">Seoul</p>
+                  <p className="text-white font-wanted font-medium">Address</p>
+                  <p className="text-gray-300 font-wanted">Seoul</p>
                 </div>
               </div>
 
@@ -187,15 +191,17 @@ export default function Contact() {
                   </svg>
                 </div>
                 <div>
-                  <p className="text-white font-medium">전화</p>
-                  <p className="text-gray-300">+82-10-6414-8695</p>
+                  <p className="text-white font-wanted font-medium">Phone</p>
+                  <p className="text-gray-300 font-wanted">+82-10-6414-8695</p>
                 </div>
               </div>
             </div>
           </div>
 
           <div className="bg-white/5 backdrop-blur-sm rounded-xl p-8 border border-purple-500/20">
-            <h3 className="text-2xl font-bold text-white mb-6">소셜 미디어</h3>
+            <h3 className="text-2xl font-wanted font-bold text-white mb-6">
+              소셜 미디어
+            </h3>
 
             <div className="flex space-x-4">
               <a

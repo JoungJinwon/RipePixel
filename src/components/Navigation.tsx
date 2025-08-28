@@ -9,7 +9,7 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
-            <span className="text-2xl font-game font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+            <span className="text-2xl font-wanted font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
               RipePixel
             </span>
           </div>
@@ -18,31 +18,31 @@ export default function Navigation() {
             <div className="ml-10 flex items-baseline space-x-8">
               <a
                 href="#home"
-                className="text-white hover:text-purple-400 transition-colors font-medium"
+                className="text-white hover:text-purple-400 font-wanted transition-colors font-medium"
               >
                 홈
               </a>
               <a
                 href="#about"
-                className="text-white hover:text-purple-400 transition-colors font-medium"
+                className="text-white hover:text-purple-400 font-wanted transition-colors font-medium"
               >
                 소개
               </a>
               <a
                 href="#games"
-                className="text-white hover:text-purple-400 transition-colors font-medium"
+                className="text-white hover:text-purple-400 font-wanted transition-colors font-medium"
               >
                 게임
               </a>
               <a
                 href="#team"
-                className="text-white hover:text-purple-400 transition-colors font-medium"
+                className="text-white hover:text-purple-400 font-wanted transition-colors font-medium"
               >
                 팀
               </a>
               <a
                 href="#contact"
-                className="text-white hover:text-purple-400 transition-colors font-medium"
+                className="text-white hover:text-purple-400 font-wanted transition-colors font-medium"
               >
                 연락처
               </a>

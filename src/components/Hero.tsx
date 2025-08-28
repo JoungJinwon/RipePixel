@@ -7,21 +7,21 @@ export default function Hero() {
       <div className="absolute inset-0 bg-gradient-to-br from-purple-900/20 via-transparent to-pink-900/20"></div>
 
       <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto">
-        <h1 className="text-6xl md:text-8xl font-game font-bold mb-6">
+        <h1 className="text-6xl md:text-8xl font-wanted font-bold mb-6">
           <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-purple-600 bg-clip-text text-transparent">
             RipePixel studio
           </span>
         </h1>
 
-        <p className="text-xl md:text-1xl text-gray-400 mb-8 leading-relaxed">
+        <p className="text-xl md:text-1xl font-wanted text-gray-400 mb-8 leading-relaxed">
           창의성과 스토리텔링의 경계를 넓히다
         </p>
 
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-          <button className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-semibold py-4 px-8 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-purple-500/25">
+          <button className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-wanted font-semibold py-4 px-8 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-purple-500/25">
             게임 둘러보기
           </button>
-          <button className="border-2 border-purple-400 text-purple-400 hover:bg-purple-400 hover:text-white font-semibold py-4 px-8 rounded-lg transition-all duration-300 transform hover:scale-105">
+          <button className="border-2 border-purple-400 text-purple-400 hover:bg-purple-400 hover:text-white font-wanted font-semibold py-4 px-8 rounded-lg transition-all duration-300 transform hover:scale-105">
             스튜디오 소개
           </button>
         </div>

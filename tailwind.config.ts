@@ -36,9 +36,10 @@ const config: Config = {
       },
       fontFamily: {
         game: ["Orbitron", "monospace"],
+        wanted: ["Wanted Sans"],
       },
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/line-clamp")],
 };
 export default config;

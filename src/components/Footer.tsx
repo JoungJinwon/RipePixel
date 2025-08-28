@@ -4,52 +4,44 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto">
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
-            <h3 className="text-2xl font-game font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent mb-4">
+            <h3 className="text-2xl font-wanted font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent mb-4">
               RipePixel studio
             </h3>
-            <p className="text-gray-300 leading-relaxed">
+            <p className="text-gray-300 font-wanted leading-relaxed">
               창의성과 혁신으로 게임의 미래를 만들어가는 인디 게임
               스튜디오입니다.
             </p>
           </div>
 
           <div>
-            <h4 className="text-white font-bold mb-4">게임</h4>
+            <h4 className="text-white font-wanted font-bold mb-4">게임</h4>
             <ul className="space-y-2">
               <li>
                 <a
                   href="#"
-                  className="text-gray-300 hover:text-purple-400 transition-colors"
+                  className="text-gray-300 font-wanted hover:text-purple-400 transition-colors"
                 >
-                  Pixel Dreams
+                  Void Survivor
                 </a>
               </li>
               <li>
                 <a
                   href="#"
-                  className="text-gray-300 hover:text-purple-400 transition-colors"
+                  className="text-gray-300 font-wanted hover:text-purple-400 transition-colors"
                 >
-                  Neon Echoes
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="text-gray-300 hover:text-purple-400 transition-colors"
-                >
-                  Forest Keeper
+                  Foorball Hero
                 </a>
               </li>
             </ul>
           </div>
 
           <div>
-            <h4 className="text-white font-bold mb-4">회사</h4>
+            <h4 className="text-white font-wanted font-bold mb-4">회사</h4>
             <ul className="space-y-2">
               <li>
                 <a
                   href="#about"
-                  className="text-gray-300 hover:text-purple-400 transition-colors"
+                  className="text-gray-300 font-wanted hover:text-purple-400 transition-colors"
                 >
                   소개
                 </a>
@@ -57,7 +49,7 @@ export default function Footer() {
               <li>
                 <a
                   href="#team"
-                  className="text-gray-300 hover:text-purple-400 transition-colors"
+                  className="text-gray-300 font-wanted hover:text-purple-400 transition-colors"
                 >
                   팀
                 </a>
@@ -65,7 +57,7 @@ export default function Footer() {
               <li>
                 <a
                   href="#"
-                  className="text-gray-300 hover:text-purple-400 transition-colors"
+                  className="text-gray-300 font-wanted hover:text-purple-400 transition-colors"
                 >
                   채용
                 </a>
@@ -73,7 +65,7 @@ export default function Footer() {
               <li>
                 <a
                   href="#"
-                  className="text-gray-300 hover:text-purple-400 transition-colors"
+                  className="text-gray-300 font-wanted hover:text-purple-400 transition-colors"
                 >
                   보도자료
                 </a>
@@ -82,12 +74,12 @@ export default function Footer() {
           </div>
 
           <div>
-            <h4 className="text-white font-bold mb-4">지원</h4>
+            <h4 className="text-white font-wanted font-bold mb-4">지원</h4>
             <ul className="space-y-2">
               <li>
                 <a
                   href="#contact"
-                  className="text-gray-300 hover:text-purple-400 transition-colors"
+                  className="text-gray-300 font-wanted hover:text-purple-400 transition-colors"
                 >
                   연락처
                 </a>
@@ -95,7 +87,7 @@ export default function Footer() {
               <li>
                 <a
                   href="#"
-                  className="text-gray-300 hover:text-purple-400 transition-colors"
+                  className="text-gray-300 font-wanted hover:text-purple-400 transition-colors"
                 >
                   FAQ
                 </a>
@@ -103,7 +95,7 @@ export default function Footer() {
               <li>
                 <a
                   href="#"
-                  className="text-gray-300 hover:text-purple-400 transition-colors"
+                  className="text-gray-300 font-wanted hover:text-purple-400 transition-colors"
                 >
                   개발자 블로그
                 </a>
@@ -111,7 +103,7 @@ export default function Footer() {
               <li>
                 <a
                   href="#"
-                  className="text-gray-300 hover:text-purple-400 transition-colors"
+                  className="text-gray-300 font-wanted hover:text-purple-400 transition-colors"
                 >
                   커뮤니티
                 </a>

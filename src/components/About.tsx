@@ -5,12 +5,12 @@ export default function About() {
       className="py-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto"
     >
       <div className="text-center mb-16">
-        <h2 className="text-4xl md:text-5xl font-game font-bold mb-6 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+        <h2 className="text-4xl md:text-5xl font-wanted font-bold mb-6 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
           ABOUT US
         </h2>
-        <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
+        <p className="text-xl text-gray-300 font-wanted max-w-3xl mx-auto leading-relaxed">
           RipePixel studio는 혁신적인 게임 경험을 만들어내는 데 열정을 가진
-          크리에이티브 팀입니다.
+          스튜디오입니다.
         </p>
       </div>
 
@@ -31,10 +31,10 @@ export default function About() {
               />
             </svg>
           </div>
-          <h3 className="text-2xl font-bold text-white mb-4">
+          <h3 className="text-2xl font-wanted font-bold text-white mb-4">
             혁신적인 아이디어
           </h3>
-          <p className="text-gray-300 leading-relaxed">
+          <p className="text-gray-300 font-wanted leading-relaxed">
             기존 게임의 틀을 벗어난 창의적이고 독창적인 게임 메카닉과 스토리를
             구현합니다.
           </p>
@@ -56,8 +56,10 @@ export default function About() {
               />
             </svg>
           </div>
-          <h3 className="text-2xl font-bold text-white mb-4">정성스런 제작</h3>
-          <p className="text-gray-300 leading-relaxed">
+          <h3 className="text-2xl font-wanted font-bold text-white mb-4">
+            정성스런 제작
+          </h3>
+          <p className="text-gray-300 font-wanted leading-relaxed">
             모든 디테일에 신경 쓰며, 플레이어에게 감동을 주는 완성도 높은 게임을
             만듭니다.
           </p>
@@ -79,8 +81,10 @@ export default function About() {
               />
             </svg>
           </div>
-          <h3 className="text-2xl font-bold text-white mb-4">커뮤니티 중심</h3>
-          <p className="text-gray-300 leading-relaxed">
+          <h3 className="text-2xl font-wanted font-bold text-white mb-4">
+            커뮤니티 중심
+          </h3>
+          <p className="text-gray-300 font-wanted leading-relaxed">
             플레이어 커뮤니티와 소통하며, 피드백을 적극 반영하여 함께 게임을
             발전시킵니다.
           </p>
@@ -88,7 +92,7 @@ export default function About() {
       </div>
 
       <div className="text-center">
-        <p className="text-lg text-gray-300 max-w-4xl mx-auto leading-relaxed">
+        <p className="text-lg text-gray-300 font-wanted max-w-4xl mx-auto leading-relaxed">
           우리는 단순히 게임을 만드는 것이 아니라, 플레이어들에게 새로운 세계를
           선사하고 잊을 수 없는 경험을 제공하는 것을 목표로 합니다. 작은
           스튜디오이지만 큰 꿈을 가지고, 인디 게임계에 새로운 바람을 일으키고자
