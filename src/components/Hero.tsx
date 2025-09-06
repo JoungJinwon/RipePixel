@@ -9,7 +9,7 @@ export default function Hero() {
       <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto">
         <h1 className="text-6xl md:text-8xl font-wanted font-bold mb-6">
           <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-purple-600 bg-clip-text text-transparent">
-            Hyeran Lim
+            RipePixel studio
           </span>
         </h1>
 
